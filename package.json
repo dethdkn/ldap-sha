@@ -1,0 +1,36 @@
+{
+	"name": "ldap-sha",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "Ldap ssha password generator for node",
+	"author": {
+		"name": "Gabriel 'DethDKN' Rosa",
+		"email": "gabriel@rosa.dev.br",
+		"url": "https://rosa.dev.br"
+	},
+	"license": "MIT",
+	"homepage": "https://ldap-passwords.com",
+	"bugs": "https://github.com/dethdkn/ldap-sha/issues",
+	"keywords": [
+		"ssha",
+		"ldap",
+		"crypt",
+		"password",
+		"hash"
+	],
+	"main": "dist/index.js",
+	"types": "types/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"test": "tsc && vitest run"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^2.6.3",
+		"@types/node": "^20.11.5",
+		"eslint": "^8.56.0",
+		"typescript": "^5.3.3",
+		"vitest": "^1.2.1"
+	}
+}
